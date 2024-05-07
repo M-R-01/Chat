@@ -1,0 +1,75 @@
+.chat {
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    width: 45%;
+    height: 94vh;
+    color: black;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.messagebox {
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #410909;
+    border-radius: 10px;
+}
+
+.message {
+    background-color: blueviolet;
+    height: auto;
+    padding-top: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    margin-bottom   : 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user, .time {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inputfield {
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    height: 35px;
+    bottom: 3vh;
+    width: 44%;
+    text-align: center;
+}
+
+.inputfield input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;    
+    text-decoration: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.inputfield button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
